@@ -17,6 +17,8 @@ export function fibonacciWASMTimes(n: i32, t:i32): void {
   }
 }
 
+// sort tests attribution:  
+// https://surma.dev/things/js-to-asc/  
 export function sortWASM(arr: StaticArray<f32>): StaticArray<f32> {
   const len = arr.length;
   for (let i = len - 1; i >= 0; i--) {
